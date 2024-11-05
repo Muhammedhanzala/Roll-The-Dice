@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roll Dice Game</title>
+    <link rel="stylesheet" href="roll a dice/style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="gameArea">
+        <div id="beechKiCheezeyn">
+          <button onclick="again()" class="gameButton">New Game</button>
+          <div id="dice">
+            <img src="roll a dice/6.png" alt="Dice" class="diceImage">
+          </div>
+          <button onclick="rollDice()" class="gameButton">Roll Dice</button>
+          <button onclick="hold()" class="gameButton">Hold</button>
+        </div>
+    
+        <div id="player1" class="playerArea">
+          <h2 id="player1Name">Player 1</h2>
+          <h1 id="totalScoreNumber1">0</h1>
+          <div class="currentScore">
+            <p>Current</p>
+            <p id="currentScoreNumber1">0</p>
+          </div>
+        </div>
+    
+        <div id="player2" class="playerArea activePlayer">
+          <h2 id="player2Name">Player 2</h2>
+          <h1 id="totalScoreNumber2">0</h1>
+          <div class="currentScore">
+            <p>Current</p>
+            <p id="currentScoreNumber2">0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="roll a dice/app.js"></script>
+  </body>
+</html>
