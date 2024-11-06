@@ -73,6 +73,8 @@
   h1 {
     font-size: 100px;
     margin-bottom: 20px;
+    /* background-color: black; */
+    color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
   
